@@ -6,13 +6,3 @@ pdfplumber
 pydantic
 fastapi
 uvicorn
-
-# For PDF parsing
-pdfminer.six
-Pillow
-
-# For running FastAPI
-uvicorn[standard]
-
-# For Phi + Gemini agents
-phi==0.4.8  # Specific version (as used before)
