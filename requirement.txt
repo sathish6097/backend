@@ -1,8 +1,23 @@
-# Core Python packages
-requests
-python-dotenv
-pymongo
-pdfplumber
-pydantic
-fastapi
-uvicorn
+# Web framework
+fastapi==0.111.0
+uvicorn==0.30.0
+
+# MongoDB driver
+pymongo==4.7.1
+
+# Environment variable management
+python-dotenv==1.0.1
+
+# Data validation
+pydantic==2.7.1
+
+# PDF processing
+pdfplumber==0.10.4
+pdfminer.six==20221105
+Pillow==10.3.0
+
+# AI Agent Model (Google Gemini)
+phi==0.4.8
+
+# HTTP requests
+requests==2.31.0
